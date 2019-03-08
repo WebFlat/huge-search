@@ -14,10 +14,10 @@ body{
 	width: 70%;
 	margin: 0 auto;
 }
-#search>a {
+#search>button {
 	width: 9%;
 }
-#search a img {
+#search button img {
 	margin-top: 5px;
 }
 #search input {
