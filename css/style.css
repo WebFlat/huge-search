@@ -9,6 +9,7 @@ body{
 	padding: 40px 5%;
 	font-family: Arial, sans-serif;
 	height: 100vh;
+	transition: all .1s ease-in;
 }
 #search,
 #content {
