@@ -40,7 +40,7 @@ input::-webkit-input-placeholder {
 }
 ul li {
 	display: inline-block;
-	width: 26%;
+	width: 25%;
 	border-radius: 5px;
 	color: #c2c2c2;
 	word-wrap: break-word;
@@ -50,20 +50,19 @@ ul li {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 25px 5px 10px 0;
 	letter-spacing: 1px;
+	margin-bottom: 10px;
 }
 .header>li:nth-child(2) {
-	margin: 0 60px; 
+	margin: 0 70px; 
 }
 .card>li{
 	background-color: rgba(118,117,128,0.05);
 	cursor: pointer;
 	margin: 2px 0;
-	padding: 10px 0px 10px 10px;
 }
 .card>li:nth-child(3n+2) {
-	margin: 2px 60px; 
+	margin: 2px 70px; 
 } 
 .card li:hover  {
 	background-color: rgba(118,117,128,0.1);
@@ -71,20 +70,30 @@ ul li {
 .card li:hover a {
 	color:  #ec5a62;
 }
+.card a {
+	color: #c2c2c2;
+	text-decoration: none;
+	padding: 10px 0px 10px 10px;
+	display: inline-block;
+	font-size: 0;
+	width: 100%;
+}
 .card img {
 	vertical-align: middle;
+	display: inline-block;
+	width: 15%;	
 }
 .square img {
 	border-radius: 50%;
 }
 .card p {
 	font-size: 14px;
-	margin-left: 10px;
+	padding-left: 15px;
 	display: inline-block;
 	vertical-align: middle;
+	width: 85%;
+	max-height: 42px;
+    overflow: hidden;
 }
-.card a {
-	color: #c2c2c2;
-	text-decoration: none;	
-}
+
 
