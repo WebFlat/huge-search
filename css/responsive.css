@@ -1,0 +1,35 @@
+@media screen and (max-width: 1033px) {
+	#wrapper {
+		width: 95%;
+	}
+	
+}
+@media screen and (max-width: 940px) {
+	li.square p {
+		padding-right: 40px;
+	}
+}
+@media screen and (max-width: 940px) {
+	li.square p {
+		padding-right: 40px;
+	}
+	form input {
+	font-size: 60px;
+	}
+	form button {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 734px) {
+	#content {
+	flex-direction: column;
+	}
+	li.square p {
+		padding-right: 0;		
+	}
+	.card {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
